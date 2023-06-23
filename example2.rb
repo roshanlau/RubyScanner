@@ -9,5 +9,5 @@ def factorial(n)
   # Test the factorial function
   number = 5
   result = factorial(number)
-  puts "The factorial of #{number} is #{result}."
+  puts "The factorial of " + number + " is " + result + "."
   

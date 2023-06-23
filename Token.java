@@ -14,9 +14,9 @@ public class Token {
 
     public String toString() {
         if(value == null){
-            return "<Token: " + type + ">";
+            return "[Token: " + type + "]";
         }else{
-            return "<Token: " + type + " : " + value  + " >";
+            return "[Token: " + type + " : " + value  + "]";
         }
     }
 }

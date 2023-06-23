@@ -1,3 +1,4 @@
+
 public class App {
   /**
    * Runs the scanner on input files.

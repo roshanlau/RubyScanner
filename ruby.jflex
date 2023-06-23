@@ -67,6 +67,11 @@ LiteralCharacter = [^\r\n\"\\]
 
     /* keywords */
     "BEGIN"                        |
+    "puts"                         |
+    "rand"                         |
+    "print"                        |
+    "gets"                         |
+    "chomp"                        |
     "ensure"                       |
     "assert"                       |
     "nil"                          |
@@ -132,6 +137,7 @@ LiteralCharacter = [^\r\n\"\\]
     "<<"                           |
     ">>"                           |
     "&"                            |
+    "||"                           |
     "|"                            |
     "^"                            |
     "~"                            |
@@ -162,6 +168,7 @@ LiteralCharacter = [^\r\n\"\\]
     "^="                           |
     ">>="                          |
     "<<="                          |
+    "!"                            |
     "**="                          { return new Token(TokenType.OPERATOR, yytext()); }
 
     /* string literal */
