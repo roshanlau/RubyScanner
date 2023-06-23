@@ -1,0 +1,4 @@
+Run the comment to compile the jflex file:
+jflex ruby.flex
+
+javac -d target -cp App.java  && java -cp target/ App example1.rb
